@@ -13,6 +13,7 @@
 		731806421FD2E4DB00D82ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731806411FD2E4DB00D82ADB /* Assets.xcassets */; };
 		731806451FD2E4DB00D82ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731806431FD2E4DB00D82ADB /* LaunchScreen.storyboard */; };
 		731806481FD2E4DB00D82ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 731806471FD2E4DB00D82ADB /* main.m */; };
+		731806501FD2E4F600D82ADB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7318064F1FD2E4F600D82ADB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		731806441FD2E4DB00D82ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731806461FD2E4DB00D82ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		731806471FD2E4DB00D82ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7318064E1FD2E4F600D82ADB /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7318064F1FD2E4F600D82ADB /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				731806391FD2E4DB00D82ADB /* AppDelegate.m */,
 				7318063B1FD2E4DB00D82ADB /* ViewController.h */,
 				7318063C1FD2E4DB00D82ADB /* ViewController.m */,
+				7318064E1FD2E4F600D82ADB /* Person.h */,
+				7318064F1FD2E4F600D82ADB /* Person.m */,
 				7318063E1FD2E4DB00D82ADB /* Main.storyboard */,
 				731806411FD2E4DB00D82ADB /* Assets.xcassets */,
 				731806431FD2E4DB00D82ADB /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				7318063D1FD2E4DB00D82ADB /* ViewController.m in Sources */,
 				731806481FD2E4DB00D82ADB /* main.m in Sources */,
+				731806501FD2E4F600D82ADB /* Person.m in Sources */,
 				7318063A1FD2E4DB00D82ADB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
