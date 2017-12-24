@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Person.h"
+#import "NSObject+FNKVO.h"
 
 @interface ViewController ()
 
@@ -27,7 +28,8 @@
      3.如何让外界调用自定义子类的方法？修改当前对象的isa指针,指向自定义的子类!
      */
     self.person = [[Person alloc] init];
-    [self.person addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
+//    [self.person addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
+    [self.person fn_addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
